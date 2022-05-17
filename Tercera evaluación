@@ -1,0 +1,80 @@
+Ejercicio 1
+'5.1 Defina Una funcion en Python que acepte el radio y devuelva el valor'
+'del area de un circulo de esas dimensiones'
+
+from math import pi
+
+b = float(input("Poner numero para el radio: "))
+
+def facultad(b):
+    
+    return pi * b**2
+
+t = facultad(b)
+
+
+print("El resultado es igual t:",t)
+Ejercicio 2
+'5.2 Defina una funcion en python que acepte 3 valores y devuelva'
+'solo el maximo de los 3'
+
+d = float(input("Digite un numero: "))
+r = float(input("Digite un numero: "))
+k = float(input("Digite un numero: "))
+
+def main(d,r,k):
+ 
+ if (d > r) and (d > k): {
+ 
+  print("El numero mayor es: ",d)
+ }
+  
+ if (r > d) and (r > k): {
+
+  print("El numero mayor es: ",r)
+ }
+  
+ if (k > d) and (k > d): {
+
+  print("El numero mayor es: ",k)
+ }
+
+ return 
+
+p = main(d,r,k
+Ejercicio 3
+'Desarolle una funcion en python que acepte una variable'
+'string como primer parametro y la cantidad de caracteres'
+'de como segundo parametro. La funcion debe devolver un'
+'nuevo string que consista en el string original y el'
+'numero correcto de caracteres necesarios para que el string'
+'se salga centrado. No se agregan caracteres al final del string'
+
+palabra = 'telematica'
+
+def funcion():
+
+ print("valor original: ",palabra)
+ print(len(palabra))
+ print('{:^20}'.format(palabra))
+
+funcion()
+Ejercicio 4
+'Dado a la lista de enteros, defina una funcion en python que devuelva la suma de solo'
+'los valores impares de dicha lista'
+
+numeros = [20,21,22,23,24,25,26,27,28,29,30]
+
+def variable(numeros):
+ 
+ suma_impares =0
+ for numero in numeros:
+    if numero % 2 != 0:
+        suma_impares += numero
+    
+
+ return suma_impares
+
+resultado = variable(numeros)
+ 
+print("Suma de valores impares en el rango 20 a 30 ",resultado)
